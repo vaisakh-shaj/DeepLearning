@@ -13,7 +13,7 @@ This suggests the “covariate shift” problem can be reduced by fixing the mea
 the summed inputs within each layer. We, thus, compute the layer normalization /mu and /sigma statistics over all
 the hidden units in the same layer as follow. The normalized layer outputs are also given below, where g is the gain parameter.
 
-![](Images/layer_norm.png)
+![](Images/layer_norm.PNG)
 Equation [1](https://docs.google.com/document/d/1Iw_TUijQ-C6F0M3mWWco8_rDiuEblKvtr8mCB3ITLas/edit#bookmark=id.ih4sqznq0mj9)
   ```H - Number of Neurons in Layer l
    ```
