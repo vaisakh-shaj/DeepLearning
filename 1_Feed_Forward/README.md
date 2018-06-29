@@ -16,7 +16,8 @@ the hidden units in the same layer as follow. The normalized layer outputs are a
 ![](Images/layer_norm.PNG)
 Equation [1](https://docs.google.com/document/d/1Iw_TUijQ-C6F0M3mWWco8_rDiuEblKvtr8mCB3ITLas/edit#bookmark=id.ih4sqznq0mj9)
 
-```H - Number of Neurons in Layer l
+```
+H - Number of Neurons in Layer l
    ```
 
 Unlike batch normalization,
