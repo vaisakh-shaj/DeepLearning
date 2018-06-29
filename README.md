@@ -16,6 +16,7 @@ Contains codes for training various neural network architectures. The repository
 
 - Feed Forward Neural Network (FNN) 
 
+
 - Convolutional Neural Network (CNN)
 
 - Word Vector Model (CBOW/SKIPGRAM)
