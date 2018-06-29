@@ -5,8 +5,9 @@ The Jupyter Notebook is Self Explanatory
 **Latest Update**
 
 - **Layer Normalization - Usage:**  ```layer_norm = True
-   ```   
-  The layer normalization method is designed to overcome the drawbacks of batch normalization.t changes in the output of one layer will tend to cause highly correlated changes in the
+                                    ```   
+  
+The layer normalization method is designed to overcome the drawbacks of batch normalization.t changes in the output of one layer will tend to cause highly correlated changes in the
 summed inputs to the next layer, especially with ReLU units whose outputs can change by a lot.
 This suggests the “covariate shift” problem can be reduced by fixing the mean and the variance of
 the summed inputs within each layer. We, thus, compute the layer normalization /mu and /sigma statistics over all
